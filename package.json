@@ -1,6 +1,6 @@
 {
   "name": "ximple-logger",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "tiny node.js logging utility modelled after node core's debugging technique.",
   "main": "ximple-logger.js",
   "scripts": {
