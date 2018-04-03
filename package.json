@@ -1,0 +1,25 @@
+{
+  "name": "ximple-logger",
+  "version": "0.1.0",
+  "description": "tiny node.js logging utility modelled after node core's debugging technique.",
+  "main": "ximple-logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoguskim/ximple-logger.git"
+  },
+  "keywords": [
+    "debug",
+    "logger",
+    "xogus",
+    "util"
+  ],
+  "author": "TaeHyun KIM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoguskim/ximple-logger/issues"
+  },
+  "homepage": "https://github.com/xoguskim/ximple-logger#readme"
+}
