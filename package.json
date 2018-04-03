@@ -1,10 +1,10 @@
 {
   "name": "ximple-logger",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "tiny node.js logging utility modelled after node core's debugging technique.",
   "main": "ximple-logger.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/xoguskim/ximple-logger/issues"
   },
-  "homepage": "https://github.com/xoguskim/ximple-logger#readme"
+  "homepage": "https://github.com/xoguskim/ximple-logger#readme",
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
 }

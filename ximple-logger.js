@@ -28,9 +28,9 @@ function ximpleLogger(namespace) {
   debug.enable('debug:*,info:*,error:*');
   debug.colors[0,3,5];
 
-  var _debug = debug('debug:'+namespace);
-  var _info = debug('info:'+namespace);
-  var _error = debug('error:'+namespace);
+  var _debug = debug(DEBUG+':'+namespace);
+  var _info = debug(INFO+':'+namespace);
+  var _error = debug(ERROR+':'+namespace);
 
   _debug.color = 0;
   _info.color = 3;
